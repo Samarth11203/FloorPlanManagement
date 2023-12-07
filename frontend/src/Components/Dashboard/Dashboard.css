@@ -1,0 +1,212 @@
+/* Add this style for the image */
+.image-container {
+  width: 48%; /* Same as form container width */
+  box-sizing: border-box;
+}
+
+.notHead {
+  margin-bottom: 10px;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.family-image {
+  width: 70%;
+  border-radius: 15px;
+  padding-left: 70px;
+  padding-right: 60px;
+  border-radius: 10px;
+}
+
+/* Other existing styles remain unchanged */
+.dashboard-container {
+  background-color: rgb(244, 237, 237);
+  padding: 15px;
+  margin: auto;
+  color: black;
+}
+
+.dashboard-title {
+  text-align: center;
+  margin: auto;
+}
+
+.first-row {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.greeting-message {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.forms-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 20px; 
+}
+
+.form-container {
+  border: 2px dashed black;
+  padding: 15px;
+  margin-bottom: 15px;
+  width: 48%;
+  box-sizing: border-box;
+  border-radius: 15px;
+  background-color: white;
+}
+
+.form-container label {
+  display: block;
+  margin-bottom: 12px;
+}
+
+.form-container input,
+.form-container select {
+  width: 90%;
+  padding: 10px;
+  margin-bottom: 8px;
+}
+
+.action-button {
+  background-color: #3c009d;
+  color: white;
+  padding: 12px 30px;
+  margin: auto;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.action-button:hover {
+  background-color: #45a049;
+}
+
+.delete-button {
+  background-color: #3c009d;
+  color: white;
+  padding: 12px 30px;
+  margin: auto;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.delete-button:hover{
+  background-color: rgb(227, 28, 17);
+}
+
+.logout-button {
+  background-color: #f44336;
+  color: white;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.logout-button:hover {
+  background-color: #d32f2f;
+}
+
+.budget-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+}
+
+.budget-table th,
+.budget-table td {
+  border: 1px solid #dddddd;
+  padding: 6px;
+  text-align: left;
+}
+
+.budget-table th {
+  background-color: rgb(215, 211, 211);
+}
+
+.expenses-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+}
+
+.expenses-table th,
+.expenses-table td {
+  border: 1px solid #dddddd;
+  padding: 6px;
+  text-align: left;
+}
+
+.expenses-table th {
+  background-color: rgb(215, 211, 211);
+}
+
+.rooms-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+}
+
+.rooms-table th,
+.rooms-table td {
+  border: 1px solid #dddddd;
+  padding: 6px;
+  text-align: left;
+}
+
+.rooms-table th {
+  background-color: rgb(215, 211, 211);
+}
+
+.capacity-update-container {
+  border: 2px dashed black;
+  padding: 15px;
+  margin-top: 20px;
+  border-radius: 15px;
+  background-color: white;
+  width: 48%;
+  box-sizing: border-box;
+}
+
+.capacity-update-container h3 {
+  margin-bottom: 15px;
+}
+
+.capacity-update-container label {
+  display: block;
+  margin-bottom: 12px;
+}
+
+.capacity-update-container input {
+  width: 90%;
+  padding: 10px;
+  margin-bottom: 8px;
+}
+
+.capacity-update-container button {
+  background-color: #3c009d;
+  color: white;
+  padding: 12px 30px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.capacity-update-container button:hover {
+  background-color: #45a049;
+}
